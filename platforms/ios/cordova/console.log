@@ -1,0 +1,47 @@
+2014-08-13 15:09:51.383 MyApp2[17883:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-13 15:09:51.393 MyApp2[17883:70b] Unlimited access to network resources
+2014-08-13 15:09:51.397 MyApp2[17883:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-13 15:09:51.570 MyApp2[17883:70b] Resetting plugins due to page load.
+2014-08-13 15:09:51.721 MyApp2[17883:70b] Finished load of: file:///Users/mike/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C648E787-D2DD-4FDD-81BB-EB4A09712401/MyApp2.app/www/index.html
+2014-08-13 15:12:24.095 MyApp2[18155:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-13 15:12:24.106 MyApp2[18155:70b] Unlimited access to network resources
+2014-08-13 15:12:24.109 MyApp2[18155:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-13 15:12:24.277 MyApp2[18155:70b] Resetting plugins due to page load.
+2014-08-13 15:12:24.368 MyApp2[18155:70b] Finished load of: file:///Users/mike/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C648E787-D2DD-4FDD-81BB-EB4A09712401/MyApp2.app/www/index.html
+2014-08-13 17:04:26.049 MyApp2[18155:70b] Received memory warning.
+2014-08-14 06:11:21.020 MyApp2[21931:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-14 06:11:21.186 MyApp2[21931:70b] Unlimited access to network resources
+2014-08-14 06:11:21.209 MyApp2[21931:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-14 06:11:22.339 MyApp2[21931:70b] Resetting plugins due to page load.
+2014-08-14 06:11:24.325 MyApp2[21931:70b] Finished load of: file:///Users/mike/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C648E787-D2DD-4FDD-81BB-EB4A09712401/MyApp2.app/www/index.html
+2014-08-14 12:15:49.778 MyApp2[24529:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-14 12:15:49.819 MyApp2[24529:70b] Unlimited access to network resources
+2014-08-14 12:15:49.837 MyApp2[24529:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-14 12:15:50.637 MyApp2[24529:70b] Resetting plugins due to page load.
+2014-08-14 12:15:50.967 MyApp2[24529:70b] Finished load of: file:///Users/mike/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C648E787-D2DD-4FDD-81BB-EB4A09712401/MyApp2.app/www/index.html
+2014-08-14 12:15:51.079 MyApp2[24529:70b] Received Event: deviceready
+2014-08-14 12:15:54.834 MyApp2[24529:70b] START Button
