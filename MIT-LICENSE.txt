@@ -1,4 +1,3 @@
-MiReversi
 The MIT License (MIT)
 Copyright (c) 2011 Makoto Ishida
 
@@ -27,7 +26,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ===================================================================
 Japanese Translation (For reference only)
 
-MiReversi
 The MIT License
 Copyright (c) 2011 Makoto Ishida
 
