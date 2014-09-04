@@ -5,10 +5,8 @@ tm.define("ResultScene", {
         this.superInit();
         var self = this;
 
-        console.log("ResultScene: ", param);
-        
         var HIGHSCORE_Y = 270;
-        var RANKING_Y = 360;
+        var RANKING_Y = 360; 
 
         this.fromJSON({
             children: [
@@ -62,8 +60,6 @@ tm.define("ResultScene", {
                     .move(SCREEN_WIDTH*2, HIGHSCORE_Y, 1)
                     .setLoop(true);
             }
-                
-            console.log("Ranking: ", ranking);
                 
             for (var i = 0; i < 10; ++i){
             

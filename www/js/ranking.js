@@ -19,7 +19,7 @@ tm.define("Ranking", {
         } else { 
             console.log("No window.localStorage defined.");   
         }
-        if (!ranking) ranking = { rank: 1, top10:[] };
+        if (!ranking || !ranking.top10) ranking = { rank: 1, top10:[] };
         
         for (var i = 9; i >= 0; i--){
             var old_entry = ranking.top10[i];
@@ -38,8 +38,6 @@ tm.define("Ranking", {
         str = JSON.stringify(ranking);
         storage.setItem(level, str);
         
-        //console.log("data saved: ", level, JSON.stringify(ranking));
-
         if (callback){
             callback(ranking);
         }
