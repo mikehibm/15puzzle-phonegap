@@ -12,42 +12,38 @@ tm.define("Ranking", {
     submit: function(level, name, score, callback){
         var ranking = null;
         var str = "";
-        if (localStorage){
-            str = localStorage.getItem(level);
+        var storage = window.localStorage;
+        if (storage){
+            str = storage.getItem(level);
             if (str) ranking = JSON.parse(str);
+        } else { 
+            console.log("No window.localStorage defined.");   
         }
         if (!ranking) ranking = { rank: 1, top10:[] };
-        
-        console.log("data: ", ranking);
         
         for (var i = 9; i >= 0; i--){
             var old_entry = ranking.top10[i];
             if (old_entry && (score > old_entry.score-0)){
-                ranking.rank = i+2;
-                for (var j = 9; j > i+1; j--){
-                    ranking.top10[j] = ranking.top10[j-1];
-                }
-                if (i+1 < 10) ranking.top10[i+1] = {name: name, score: score};
                 break;
             }
         }
-        if (i < 0) {
-            ranking.rank = 1;
-            for (var j = 9; j > 0; j--){
-                ranking.top10[j] = ranking.top10[j-1];
-            }
-            ranking.top10[0] = {name: name, score: score};
+        ranking.rank = i+2;
+
+        if (ranking.rank <= 10){
+            var index = ranking.rank - 1;
+            ranking.top10.splice(index, 0, {name: name, score: score}); //index番目に追加して後の要素を後ろにずらす。
+            if (ranking.top10.length > 10) ranking.top10.pop();         //最後の余分な要素を削除。
         }
 
         str = JSON.stringify(ranking);
-        localStorage.setItem(level, str);
+        storage.setItem(level, str);
         
-        console.log("data after submit: ", ranking);
+        //console.log("data saved: ", level, JSON.stringify(ranking));
 
         if (callback){
             callback(ranking);
         }
-    },
+    }
 });
 
 
